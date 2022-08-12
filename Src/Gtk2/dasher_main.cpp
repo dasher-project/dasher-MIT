@@ -780,12 +780,6 @@ static void dasher_main_command_quit(DasherMain *pSelf) {
 
   GtkWidget *pDialogue = NULL;
   dasher_main_save_state(pSelf);
-
-  if (!pPrivate->pAppSettings->GetBool(APP_BP_CONFIRM_UNSAVED)) {
-    gtk_main_quit();
-    return;
-  }
-
   if(dasher_editor_file_changed(pPrivate->pEditor)) {
 // XXX PRLW: Just open the save dialogue box.
 #if 0
@@ -928,7 +922,7 @@ dasher_main_command_about(DasherMain *pSelf) {
                         "comments", _("Dasher is a predictive text entry application"), 
                         "copyright", "Copyright \xC2\xA9 1998-2011 The Dasher Project", 
                         "documenters", documenters,
-                        "license", "GPL 2+",
+                        "license", "MIT",
                         "logo-icon-name", "dasher",
                         "translator-credits", _("translator-credits"),
                         "version", PACKAGE_VERSION,

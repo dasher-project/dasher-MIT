@@ -136,8 +136,6 @@ int main(int argc, char *argv[]) {
     {"config", 'c', 0, G_OPTION_ARG_STRING, &(sCommandLine.szConfigFile), N_("XML configuration file name"), NULL},
     // Note to translators: This is the help string for "--help-options"
     {"help-options", 0, 0, G_OPTION_ARG_NONE, &do_option_help, N_("Describe \"--options\"."), NULL},
-    // Note to translators: This is the help string for "--version"
-    {"version", 'v', 0, G_OPTION_ARG_NONE, &do_show_version, N_("Show the version details."), NULL},
     {NULL}
   };
 
@@ -149,8 +147,6 @@ int main(int argc, char *argv[]) {
   GError *error = nullptr;
   if (!g_option_context_parse(goptcontext, &argc, &argv, &error)) {
     g_print("option parsing failed: %s\n", error->message);
-    // Note to translators: This is the help string for unrecognized command line options. Do not translate 'dasher --help' part.
-    g_print("%s\n", _("Try 'dasher --help' for more information.")); 
     exit (1);
   }
 
@@ -162,12 +158,6 @@ int main(int argc, char *argv[]) {
   if (do_option_help)
   {
     option_help();
-    return 0;
-  }
-
-  if (do_show_version)
-  {
-    option_version();
     return 0;
   }
 
