@@ -7,7 +7,7 @@ where keyboard input is impractical (for instance, accessibility or PDAs). It
 is usable with highly limited amounts of physical input while still allowing
 high rates of text entry.
 
-## License
+## License
 
 Dasher was originally built by Inference Group. It was released and maintained under GPL, [you can see that version here.](https://gitlab.gnome.org/GNOME/dasher)
 
