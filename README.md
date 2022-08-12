@@ -1,13 +1,4 @@
-## Dasher Version 5
-
-## Build Status:
-
-\-
-Linux:
-[![Build Status](https://travis-ci.org/dasher-project/dasher.svg?branch=master)](https://travis-ci.org/dasher-project/dasher)
-\-
-Java:
-[![CircleCI Build Status](https://circleci.com/gh/dasher-project/dasher.svg?style=shield)](https://circleci.com/gh/dasher-project/dasher)
+## Dasher MIT License
 
 ## Description
 
@@ -16,8 +7,13 @@ where keyboard input is impractical (for instance, accessibility or PDAs). It
 is usable with highly limited amounts of physical input while still allowing
 high rates of text entry.
 
-Dasher is released under the MIT license. Further documentation
-may be found in the Doc/ subdirectory
+## License
+
+Dasher was originally built by Inference Group. It was released and maintained under GPL, [you can see that version here.](https://gitlab.gnome.org/GNOME/dasher)
+
+This version of Dasher is licensed under the MIT License.
+
+[You can read more about the relicensing process and why we decided to relicense Dasher here.](./LICENSE_NOTES.md)
 
 ## Requirements
 
@@ -116,7 +112,3 @@ please send any comments to 'dasher@inf.phy.cam.ac.uk'.
 You can find the Dasher website at:
 
 http://www.inference.org.uk/dasher/
-
-## License
-
-Dasher is licensed under the [MIT](./LICENSE) license.
