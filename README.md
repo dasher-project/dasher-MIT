@@ -1,4 +1,6 @@
-## Dasher MIT License
+## Dasher MIT
+
+> :warning: This repo is undergoing a relicense
 
 ## Description
 
