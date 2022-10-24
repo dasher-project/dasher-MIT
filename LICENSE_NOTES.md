@@ -31,7 +31,7 @@ Dasher is a ground breaking development in text entry using continuous gestures 
 
 Dasher was originally developed and published with a GPL license.
 
-[You can still use the fully GPL version here.](https://gitlab.gnome.org/GNOME/dasher). This version has been carefully maintained by Patrick Welche and others since its creation. The GPL version is still under continued development.
+[You can still use the fully GPL version here.](https://gitlab.gnome.org/GNOME/dasher). This version has been carefully maintained by Patrick Welche and others since its creation. The GPL version is still under development.
 
 ## New License
 
