@@ -3,8 +3,10 @@
 > :warning: This document is a work in progress
 
 - [Terminology](#terminology)
+- [Credits](#credits)
 - [Original License](#original-license)
 - [New License](#new-license)
+- [GPL / MIT](#gpl--mit)
 - [Why did we want to change the license?](#why-did-we-want-to-change-the-license)
 - [How did we change the license?](#how-did-we-change-the-license)
 - [Can we provide more details on the re-licensing](#can-we-provide-more-details-on-the-re-licensing)
@@ -17,7 +19,7 @@
 
 'Stewarded' - It is important to note that Ace Centre asserts no ownership over Dasher. Ace Centre aims to facilitate discussion and development not to 'own' Dasher or make major decisions in isolation. [You can see the governance structure here.](https://github.com/dasher-project/governance)
 
-## Credits
+## Credits
 
 First of all its important to give important credit to the people who originally developed Dasher. Dasher was developed by the Inference Group in Cavendish Laboratory, Cambridge.
 
@@ -37,7 +39,7 @@ Dasher was originally developed and published with a GPL license.
 
 [This version of Dasher](https://github.com/dasher-project/dasher-mit) is licensed under the MIT License.
 
-## GPL / MIT
+## GPL / MIT
 
 GPL is a copy left license, meaning:
 
